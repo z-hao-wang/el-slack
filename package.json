@@ -1,0 +1,33 @@
+{
+  "name": "el-slack",
+  "version": "1.0.1",
+  "description": "",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "build": "tsc",
+    "tsc": "tsc",
+    "tsc:watch": "tsc -w",
+    "prettier": "node ./node_modules/prettier/bin-prettier.js --parser=typescript --single-quote --trailing-comma=all --write --print-width=120 'src/**/*.ts'",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Hao Wang",
+  "license": "MIT",
+  "keywords": [
+    "nodejs",
+    "typescript"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/z-hao-wang/el-slack.git"
+  },
+  "dependencies": {
+    "lodash": "^4.17.15",
+    "request": "^2.88.0"
+  },
+  "devDependencies": {
+    "@types/lodash": "^4.14.123",
+    "@types/request": "^2.48.3",
+    "prettier": "^1.16.4"
+  }
+}
