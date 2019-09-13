@@ -1,4 +1,6 @@
-# npm-package-boilerplate
-This will help you to get started to create typescript npm package
+# slack
+```
+import { webhook } from 'el-slack';
 
-`npm build` to build the lib
+webhook(process.env.SLACK_URL, 'msg');
+```
