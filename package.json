@@ -1,6 +1,6 @@
 {
   "name": "el-slack",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
@@ -21,13 +21,9 @@
     "type": "git",
     "url": "https://github.com/z-hao-wang/el-slack.git"
   },
-  "dependencies": {
-    "lodash": "^4.17.15",
-    "request": "^2.88.0"
-  },
+  "dependencies": {},
   "devDependencies": {
-    "@types/lodash": "^4.14.123",
-    "@types/request": "^2.48.3",
+    "@types/node": "^18.11.9",
     "prettier": "^1.16.4"
   }
 }
