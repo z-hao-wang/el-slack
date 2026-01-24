@@ -15,10 +15,12 @@ function webhook(uri, message) {
     return __awaiter(this, void 0, void 0, function* () {
         if (!uri)
             return;
-        const postDataJson = typeof message === 'string' ? {
-            username: 'data_server',
-            text: message,
-        } : message;
+        const postDataJson = typeof message === 'string'
+            ? {
+                username: 'data_server',
+                text: message,
+            }
+            : message;
         const postDataRaw = JSON.stringify(postDataJson);
         const options = {
             method: 'POST',
